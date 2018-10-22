@@ -19,37 +19,3 @@ function idCard(){
     }
 }
 btn.addEventListener('click', idCard);
-
-
-
-
-
-
-
-
-function addStrings(string1, string2){
-    return string1 + string2;
-}
-
-function numberCalculation(){
-    var number1 = 45;
-    var number2 = 78;
-    var multiplyNumbers = number1 * number2;
-    if (multiplyNumbers < 2000){
-        alert("I wish it was a bigger number");
-    }
-    else {
-        alert("That's more like it!");
-    }
-}
-numberCalculation();
-
-
-function nameInfo(){
-    var firstName = document.getElementById('firstName').value;
-    var middleName = document.getElementById('middleName').value;
-    var lastName = document.getElementById('lastName').value;
-    var fullName = firstName + middleName + lastName;
-    document.getElementById('fullName').innerHTML = fullName;
-}
-btn.addEventListener('click', nameInfo);
